@@ -1,0 +1,307 @@
+/* --------------------- 
+BASIC SETTINGS
+--------------------- */
+body {font-family: 'Raleway', sans-serif;
+overflow: auto;
+ background-color: rgba(54, 57, 66, 0.75);
+}
+a {color: cyan;}
+
+a:hover {
+    color: #f53f2c;
+    text-decoration: none;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out;
+}
+
+a:visited{
+    text-decoration: none
+}
+
+.highlight {color: gold;}
+h1 {font-size: 138px;}
+h2 {font-family: 'Pacifico', cursive;}
+h4 {font-weight: 600;}
+
+p {
+    font-size: 13px;
+    line-height: 1.7em;
+    color: #b2b2b2;
+}
+/* --------------------- 
+BUTTONS
+--------------------- */
+.btn:focus,
+input:focus {
+    outline: none !important;
+}
+
+
+.btn:focus {
+    background: #b73426;
+    color: #fff;
+    border: 2px solid #f53f2c;
+}
+
+.btn-default {
+    background: none;
+    color: #f53f2c;
+    border: 2.5px solid #f53f2c;
+}
+
+.btn-default:hover {
+    background: #f53f2c;
+    color: #fff;
+    border: 2px solid #b73426;
+}
+
+.btn-reverse {
+   
+    color: #fff;
+    border-radius: 0;
+}
+
+.btn-reverse:hover {
+    color: #fff;
+   
+}
+
+.btn-inverse {
+    background: #f53f2c;
+    color: #fff;
+    border: 2.5px solid #f53f2c;
+    margin-top: 0;
+}
+
+.btn-inverse:hover {
+    background: #b73426;
+    color: #fff;
+    border: 2.5px solid #f53f2c;
+}
+
+/* --------------------- 
+INPUT FIELDS
+--------------------- */
+input {
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 2px solid #b2b2b2;
+    margin: 30px 5px;
+    color: #b2b2b2;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out;
+}
+
+input:focus {
+    border: 2px solid #f53f2c;
+}
+
+/* --------------------- 
+SECTION HEADINGS
+--------------------- */
+.sectionhead {padding: 0 150px;}
+.sectionhead h2 {padding-bottom: 10px;}
+
+.sectionhead p {
+    font-size: 16px;
+    line-height: 1.6em;
+}
+
+.sectionhead hr {
+    width: 75px;
+    border-bottom: 4px solid #eeeeee;
+}
+
+/* --------------------- 
+HERO SECTION
+--------------------- */
+#hero {
+    text-align: center;
+    height: 600px;
+    color: #fff;
+    background: url(../img/appslab.png) fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#hero .container {padding-top: 70px;}
+
+#hero h1 {
+    font-weight: 800;
+    line-height: .8em;
+    text-shadow: 7px 9px 5px rgba(161, 19, 15, 0.294);
+}
+
+
+
+#hero p {
+    padding-top: 45px;
+    color: #fff;
+}
+
+.bigbell {margin-top: -85px;}
+
+.santa {
+    float: right;
+    margin-top: -380px;
+}
+/*........................
+ BODY SECTION
+ ...............*/
+ .mainer{
+    padding: 40px;
+    background-color: red;
+    width: 100%;
+    
+ }
+ .mainer p{
+    color: #fff;
+ }
+
+/* --------------------- 
+SUBSCRIBE SECTION
+--------------------- */
+#subscribe {
+    margin-top: 15px;
+    background: url(../img/appslab.png) fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.santaicon {
+    margin-top: -80px;
+    overflow: hidden;
+}
+
+#subscribe .container {padding: 25px 0;}
+
+
+/* --------------------- 
+OVERLAY PRESET
+--------------------- */
+.redoverlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 24, 0, 0.6);
+    position: relative;
+}
+
+.lightoverlay {
+    background-color: rgba(248, 248, 248, 0.9);
+    position: relative;
+}
+
+.darkoverlay {
+    background-color: rgba(54, 57, 66, 0.75);
+    position: relative;
+}
+
+.cut-top {
+    content: ' ';
+   
+    z-index: 1;
+    top: -80px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 80px solid  rgba(255, 24, 0, 0.6);
+    border-right: 30px solid red;
+    background-color: #fff!important;
+}
+
+.cut-bottom {
+    content: ' ';
+    
+    z-index: 1;
+    bottom: -80px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 80px solid transparent;
+    border-left: 30px solid red;
+}
+
+/* Footer */
+
+
+footer .trial-button {
+    overflow: hidden !important;
+    margin: 40px 0;
+}
+
+footer .open-blink {
+    content: ' ';
+    position: relative;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 0 20px;
+    border-radius: 50%;
+    background-color: #4caf50;
+    -webkit-animation-name: flash;
+    animation-name: flash;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+footer .open-blink:before {
+    content: ' ';
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    opacity: 0.1;
+    border-radius: 50%;
+    background-color: #4caf50;
+}
+
+footer .opening-hours {
+    margin-top: 0px;
+}
+
+footer .bottom-footer {
+    margin-top: 0px;
+}
+
+footer .social-footer {
+    padding: 0;
+    list-style: none;
+}
+
+footer .social-footer li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer .social-footer li a {
+    font-size: 24px;
+    color: #fff;
+}
+
+footer .social-footer li:hover a {
+    color: #00a8ff;
+}
+/* Form Control */
+.typed {
+    display: inline-block!important;
+    margin: 0!important;
+    padding: 30px 15px!important;
+    font-size: 30px!important;
+}
+.typed-cursor {
+    font-size: 35px;
+    display: inline-block;
+    margin: 0 10px;
+    color: red;
+    -webkit-animation-name: flash;
+    animation-name: flash;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
