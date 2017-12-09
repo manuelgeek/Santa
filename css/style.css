@@ -124,7 +124,7 @@ HERO SECTION
     background-repeat: no-repeat;
 }
 
-#hero .container {padding-top: 70px;}
+#hero .container {padding-top: 30px;}
 
 #hero h1 {
     font-weight: 800;
@@ -135,11 +135,11 @@ HERO SECTION
 
 
 #hero p {
-    padding-top: 45px;
+    padding-top: 30px;
     color: #fff;
 }
 
-.bigbell {margin-top: -85px;}
+.bigbell {margin-top: -60px!important;}
 
 .santa {
     float: right;
@@ -170,7 +170,7 @@ SUBSCRIBE SECTION
 }
 
 .santaicon {
-    margin-top: -80px;
+    margin-top: -150px;
     overflow: hidden;
 }
 
@@ -286,16 +286,24 @@ footer .social-footer li a {
 footer .social-footer li:hover a {
     color: #00a8ff;
 }
+footer p{
+    font-size: 18px;
+}
 /* Form Control */
+.sant img{
+    width: 160px!important;
+    height: 180px!important;
+}
 .typed {
     display: inline-block!important;
     margin: 0!important;
-    padding: 30px 15px!important;
-    font-size: 30px!important;
+    padding: 30px 10px!important;
+    font-size: 30px;
 }
 .typed-cursor {
     font-size: 35px;
     display: inline-block;
+    font-weight: 200;
     margin: 0 10px;
     color: red;
     -webkit-animation-name: flash;
@@ -304,4 +312,9 @@ footer .social-footer li:hover a {
     animation-duration: 1s;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+}
+
+.texxters {
+    font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    font-size: 18px;
 }
